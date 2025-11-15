@@ -74,6 +74,6 @@ Convert patient speech into text, analyze medical risk levels, and alert doctors
 
 5. **Notes for running the project:**
    - You don’t need to upload large files (like audio or database) to GitHub. Users can generate them by running the notebook.
-   - If someone wants to reproduce results, they should just run the notebook step by step strictly.
+   - If someone wants to reproduce results, they should just run the notebook step by step serially.
 
   
