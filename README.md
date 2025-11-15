@@ -52,7 +52,7 @@ Convert patient speech into text, analyze medical risk levels, and alert doctors
    - Go to Drive of the mail that you used for Google Colab, create `DASYSTEM2` folder and upload `risk.csv` and `ground_truth_21.csv`.
 
 3. **Run the notebook:**
-   - Run the Doctor Alert System.ipynb in Google Colab.
+   - Run the `Doctor Alert System.ipynb` in Google Colab.
    - Follow the notebook cells step by step.
   
 4. **Directory Structure:**
@@ -71,8 +71,9 @@ Convert patient speech into text, analyze medical risk levels, and alert doctors
      - The trained model is not uploaded (due to size limits), but users can retrain it by running the notebook.
   > **Note:** These files are **not included** in the repository. Running the notebook will generate them automatically.
 
+
 5. **Notes for running the project:**
    - You don’t need to upload large files (like audio or database) to GitHub. Users can generate them by running the notebook.
-   - If someone wants to reproduce results, they should just run the notebook step by step.
+   - If someone wants to reproduce results, they should just run the notebook step by step strictly.
 
   
