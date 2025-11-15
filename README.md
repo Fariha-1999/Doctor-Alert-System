@@ -49,7 +49,7 @@ Convert patient speech into text, analyze medical risk levels, and alert doctors
 2. **Upload the files to Google Colab**:  
    - Go to [Colab](https://colab.research.google.com/) → File → Upload Notebook  
    - Upload `Doctor_Alert_System.ipynb`
-   - Go to Google Drive of the mail that you used for Google Colab, create `DASYSTEM2` folder and upload `risk.csv` and `ground_truth_21.csv` on  the folder.
+   - Go to Google Drive of the mail that you used for Google Colab, create `DASYSTEM2` folder and upload `risk.csv` and `ground_truth_21.csv` on  that folder.
    - In `Alert System via Mail` cell code need gmail app password from the gmail you are intending to send alert to the doctor mail.
       
 
