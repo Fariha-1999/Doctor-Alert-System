@@ -10,7 +10,7 @@ A **Patient Voice-to-Text and Risk Alert System** using synthetic audio, transcr
 Convert patient speech into text, analyze medical risk levels, and alert doctors automatically for critical cases.
 
 **Key Features:**
-- Synthetic patient audio generation using gTTS.
+- Generate synthetic patient audio from text using gTTS (text-to-speech) based on the MedDialog-EN-10k dataset. (Original task is audio-to-text, but no audio dataset was available, so synthetic audio was created from text.)
 - Audio preprocessing and transcription with OpenAI Whisper.
 - Hybrid risk profiling using:
   - Keyword-based detection (high & medium risk terms)
@@ -19,6 +19,8 @@ Convert patient speech into text, analyze medical risk levels, and alert doctors
 - Database storage (SQLite) of transcripts, risk profiling, and alerts.
 - Evaluation metrics: WER, Precision, Recall, F1-score, alert reliability, and latency.
 
+**Dataset:**
+- `MedDialog-EN-10k (BinKhoaLe1812/MedDialog-EN-10k)` is used as the source for generating synthetic patient audio.
 ---
 
 ## Architecture & Technology Stack
