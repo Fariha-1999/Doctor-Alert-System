@@ -47,3 +47,28 @@ Convert patient speech into text, analyze medical risk levels, and alert doctors
    ```bash
    git clone https://github.com/YOUR_USERNAME/DoctorAlertSystem.git
    cd DoctorAlertSystem
+2. **Install dependencies:**You do not need to do it if you run it in colab
+   ```bash
+   pip install -r requirement.txt
+   
+3.Run the notebook:
+    Open notebooks/Doctor Alert System.ipynb in Google Colab (or locally in Jupyter).
+    Follow the notebook cells step by step.
+4.Directory Structure:
+    Doctor Alert System/
+    ├── notebooks/                       # Your Jupyter Notebook
+    ├── synthetic_audio_gtts/             # Folder for generated audio (optional, can be empty)
+    ├── synthetic_audio_processed/        # Processed audio folder (optional)
+    ├── transcript_large/                 # Transcripts folder (optional)
+    ├── profile_results_biobert_patient_large/ # Risk profiling results (optional)
+    ├── biobert_risk_model/               # Fine-tuned BioBERT model (optional)
+    ├── doctor_alert.db                   # SQLite database (optional)
+    ├── risk.csv                          # Risk labels for training BioBERT
+    ├── patient_report.csv                # Final report (optional)
+    ├── requirements.txt                  # Python dependencies
+    └── README.md                         # Project description
+5.Notes for running the project:
+    You don’t need to upload large files (like audio or database) to GitHub. Users can generate them by running the notebook.
+    If someone wants to reproduce results, they should just run the notebook step by step.
+
+  
