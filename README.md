@@ -1,6 +1,6 @@
 # Doctor Alert System
 
-A **Patient Voice-to-Text and Risk Alert System** using synthetic audio, transcription, BioBERT-based risk profiling, and automated email alerts. This system transcribes patient voice inputs, evaluates medical risk, stores data in a database, and notifies doctors when medium or high-risk conditions are detected.
+A **Patient Voice-to-Text and Risk Alert System** using synthetic audio, transcription, BioBERT-based risk profiling, and automated email alerts. This system generates synthetic patient audio from text, transcribes the audio back to text, evaluates medical risk, stores data in a database, and notifies doctors when medium or high-risk conditions are detected.
 
 ---
 
