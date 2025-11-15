@@ -1,0 +1,13 @@
+datasets
+gTTS
+pydub
+whisper
+transformers
+accelerate
+torch
+sentencepiece
+fuzzywuzzy
+scikit-learn
+pandas
+tqdm
+jiwer
