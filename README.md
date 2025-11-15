@@ -43,16 +43,14 @@ Convert patient speech into text, analyze medical risk levels, and alert doctors
 
 ## Installation & Setup
 
-1. **Clone the repository:**
-   ```bash
-   git clone https://github.com/YOUR_USERNAME/DoctorAlertSystem.git
-   cd DoctorAlertSystem
-2. **Install dependencies:You do not need to do it if you run it in colab**
-   ```bash
-   pip install -r requirement.txt
-   
+1. **Download the repository** as ZIP from GitHub.  
+2. **Upload the files to Google Colab**:  
+   - Go to [Colab](https://colab.research.google.com/) → File → Upload Notebook  
+   - Upload `Doctor_Alert_System.ipynb`
+   - Go to Drive of the mail that you used for Google Colab, create `DASYSTEM` folder and upload `risk.csv`.
+
 3. **Run the notebook:**
-- Open notebooks/Doctor Alert System.ipynb in Google Colab (or locally in Jupyter).
+- Run the Doctor Alert System.ipynb in Google Colab.
 - Follow the notebook cells step by step.
   
 4. **Directory Structure:**
@@ -66,7 +64,7 @@ Convert patient speech into text, analyze medical risk levels, and alert doctors
 - **`doctor_alert.db`** – SQLite database storing transcripts and alert information.  
 - **`patient_report.csv`** – Combined report of transcripts and risk alerts.  
 - **`risk.csv`** – Training dataset used for BioBERT risk classification. 
-     - This file is included in the repository because the model is trained inside the notebook. You need to save the CSV in the same folder as in code  **"DASYSTEM"**
+     - This file is included in the repository because the model is trained inside the notebook. 
      - The trained model is not uploaded (due to size limits), but users can retrain it by running the notebook.
 > **Note:** These files are **not included** in the repository. Running the notebook will generate them automatically.
 
