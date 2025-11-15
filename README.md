@@ -11,7 +11,7 @@ Convert patient speech into text, analyze medical risk levels, and alert doctors
 
 **Key Features:**
 - Generate synthetic patient audio from text using gTTS (text-to-speech) based on the MedDialog-EN-10k dataset. (Original task is audio-to-text, but no audio dataset was available, so synthetic audio was created from text.)
-- Audio preprocessing and transcription with OpenAI Whisper.
+- Audio preprocessing and transcription with OpenAI Whisper large model.
 - Hybrid risk profiling using:
   - Keyword-based detection (high & medium risk terms)
   - Fine-tuned BioBERT classifier
