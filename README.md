@@ -54,7 +54,7 @@ Convert patient speech into text, analyze medical risk levels, and alert doctors
       
 
 3. **Run the notebook:**
-   - Run the `Doctor Alert System.ipynb` in Google Colab.
+   - Run the `Doctor_Alert_System.ipynb` in Google Colab.
    - Follow the notebook cells step by step.
   
 4. **Directory Structure:**
